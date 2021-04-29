@@ -52,24 +52,62 @@ update_board();
 
 
 // function receiveAttack() {
-//     // player clicks (click event) opponents game board
-//     //the game board
-//     //takes coordinates
-//     // compairs it to the placement of the ships. 
-//     //is player selection = current ship placement?
-// }
+    //     // player clicks (click event) opponents game board
+    //     //the game board
+    //     //takes coordinates
+    //     // compairs it to the placement of the ships. 
+    //     //is player selection = current ship placement?
+    // }
 
 
-// function hit() {
-//     // if ship is hit then mark it and record move.
-//     //if not 
-// }
+
+    // function hit() {
+        //     // if ship is hit
+        // then mark it on the board
+
+        //     //if not, record move?
+        // }
 
 
-// function sunk(params) {
 
-// }
+        //---------------------TIE IN MOVIE QUOTE API AFTER ANY SHIP IS DESTROYED---------------------??
 
 
-// function gameOver()
-// // game ends once one players ships have all been sunk
+
+        // EXAMPLE FROM CLASS BELOW. SERVER SIDE API 04. But instead of populating a list on click;
+        // make this generate a quote if you sink a ship. Here is the API I was thinking about using:
+        // https://rapidapi.com/juanroldan1989/api/moviequotes
+
+        // function getApi() {
+
+            //     var requestUrl = 'https://api.github.com/users/octocat/repos';
+
+
+            //     fetch(requestUrl)
+            //         .then(function (response) {
+            //             return response.json();
+            //         })
+            //         .then(function (data) {
+            //             for (var i = 0; i < data.length; i++) {
+            //                 var listItem = document.createElement('li');   <------ Might need to consider another way to display the quote? 
+            //                 listItem.textContent = data[i].html_url;
+            //                 repoList.appendChild(listItem);
+            //             }
+            //         });
+            // }
+
+            // fetchButton.addEventListener('click', getApi); <------ Instead of adding an event listener to a button 
+            // we might want to connect it to the function SUNK() below.
+
+            //-------------------------------------------------------------------------------------------??
+
+
+
+            // function sunk(params) {
+
+            // }
+
+
+            // function gameOver()
+// game ends once one players ships have all been sunk.
+
